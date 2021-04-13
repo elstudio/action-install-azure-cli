@@ -1,6 +1,6 @@
 #!/bin/sh
-# Install the azure-cli tool on Ubuntu or other Debian-based OS
-# Using the instructions here:
+# Install the azure-cli tool on Ubuntu or other Debian-based OS,
+# using the instructions here:
 # https://docs.microsoft.com/en-us/cli/azure/install-azure-cli-linux?pivots=apt
 
 sudo apt-get install ca-certificates curl apt-transport-https lsb-release gnupg
