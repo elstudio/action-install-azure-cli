@@ -2,6 +2,6 @@ name: 'Install azure-cli'
 runs:
   using: "composite"
   steps:
-    - run: install-azure-cli.sh
+    - run: ${{ github.action_path }}/install-azure-cli.sh
       shell: bash
       
