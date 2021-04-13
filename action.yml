@@ -1,0 +1,7 @@
+name: 'Install azure-cli'
+runs:
+  using: "composite"
+  steps:
+    - run: install-azure-cli.sh
+      shell: bash
+      
